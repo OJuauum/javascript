@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font: normal 18px Arial;
+}
+
+h1 {
+    font: bolder 30px Arial;
+    margin: 20px 5px;
+}
+
+button {
+    padding: 20px 30px;
+    margin: 0px 10px;
+}
+
+div#res {
+    margin: 20px 5px;
+    font: bolder 18px Arial;
+}
