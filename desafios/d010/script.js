@@ -6,5 +6,5 @@ function botao() {
 
     var delta = b**2-4*a*c
 
-    res.innerHTML = `<h2>Resolvendo Bhaskara</h2><p>A equação atual é ${a}x² + ${b}x + ${c} = 0 <br> O cálculo realizado será Δ = ${b}² - 4 . ${a} . ${c} <br> O valor calculado foi Δ = ${delta}</p>`
+    res.innerHTML = `<h2>Resolvendo Bhaskara</h2><p>A equação atual é <strong>${a}x² + ${b}x + ${c} = 0</strong> <br> O cálculo realizado será <strong>Δ = ${b}² - 4 . ${a} . ${c}</strong> <br> O valor calculado foi <mark><strong>Δ = ${delta}</strong></p>`
 }

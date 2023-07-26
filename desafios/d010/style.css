@@ -1,2 +1,31 @@
 @charset "UTF-8";
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    margin: 10px 5px;
+    font: bolder 30px Arial;
+}
+
+button {
+    margin: 5px 5px;
+    padding: 15px 25px;
+    font: 500 18px Arial;   
+}
+
+div#res {
+    margin: 10px 5px;
+    font: normal 16px Arial;
+}
+
+div#res > h2 {
+    margin-bottom: 20px;
+    font: bolder 25px Arial;
+}
+
+div#res > p {
+    line-height: 2em;
+}
