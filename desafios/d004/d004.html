@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,19 +16,21 @@
         }
     </style>
 </head>
+
 <body>
     <h1>Calculando o Troco</h1>
     <button onclick="bot()"> Comprar Produto</button>
 
     <script>
         function bot() {
-            var prod = prompt(`Que produto você está comprando? `)
-            var preço = Number(prompt(`Quanto custa ${prod} que você está comprando? `))
-            var pag = Number(prompt(`Qual foi o valor que você deu para pagar ${prod}?`))
-            var troc = pag - preço
-            
-            alert(`Você comprou ${prod} que custou ${preço.toLocaleString('pt-BR',{style:'currency',currency:'BRL'})}.\nDeu ${pag.toLocaleString('pt-BR',{style:'currency',currency:'BRL'})} em dinheiro e vai receber ${troc.toLocaleString('pt-BR',{style:'currency',currency:'BRL'})} de troco. \nVolte Sempre!`)
+            const prod = prompt(`Que produto você está comprando? `)
+            const preço = Number(prompt(`Quanto custa ${prod} que você está comprando? `))
+            const pag = Number(prompt(`Qual foi o valor que você deu para pagar ${prod}?`))
+            const troc = pag - preço
+
+            alert(`Você comprou ${prod} que custou ${preço.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}.\nDeu ${pag.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })} em dinheiro e vai receber ${troc.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })} de troco. \nVolte Sempre!`)
         }
     </script>
 </body>
+
 </html>
