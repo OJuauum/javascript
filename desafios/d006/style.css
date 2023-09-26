@@ -20,12 +20,12 @@ div#res {
     margin: 10px 5px;
 }
 
-div#res > h2 {
+div#res>h2 {
     font: bolder 20px Arial;
     padding: 0px 5px;
 }
 
-div#res > p {
+div#res>p {
     padding: 20px 5px;
     line-height: 40px;
 }
