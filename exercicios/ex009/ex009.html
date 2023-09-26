@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+
+<body>
+    <h1>Nacionalidade</h1>
+    Em que pais vive <input type="text" id="pais"> <input type="button" value="verificar" onclick="Confirmar()">
+    <div id="res"></div>
+    <script>
+        function Confirmar() {
+            var pais = document.querySelector(`input#pais`)
+            var res = document.querySelector(`div#res`)
+            var nac = pais.value
+            res.innerHTML = `<p>Vivendo no pais <strong>${nac}</strong></p> `
+
+            if (nac == `Brasil` || nac == "brasil") {
+                res.innerHTML += `<p>Você é brasileiro</p>`
+            } else {
+                res.innerHTML += `<p>Você é estrangeiro</p>`
+            }
+        }
+    </script>
+</body>
+
+</html>
