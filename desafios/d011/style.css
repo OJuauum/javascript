@@ -21,7 +21,7 @@ div#res {
     font: normal 16px Arial;
 }
 
-div#res > h2 {
+div#res>h2 {
     margin-bottom: 20px;
 }
 
@@ -29,7 +29,7 @@ mark {
     font: bold 16px Arial;
 }
 
-mark#bis { 
+mark#bis {
     background-color: lightgreen;
     color: green;
 }
