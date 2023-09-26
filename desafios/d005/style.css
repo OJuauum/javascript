@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     font: normal 18px Arial;
@@ -21,7 +21,7 @@ h2 {
     margin: 10px 5px;
 }
 
-div#res > p {
+div#res>p {
     margin: 5px 2px 5px 0px;
     text-align: justify;
     padding: 5px;
