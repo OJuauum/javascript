@@ -6,14 +6,14 @@
 }
 
 h1 {
- margin: 10px 5px;   
- font: bolder 30px Arial;
+    margin: 10px 5px;
+    font: bolder 30px Arial;
 }
 
 button {
     padding: 15px 20px;
     margin: 5px 5px;
-    font: 600 16px Arial;    
+    font: 600 16px Arial;
 }
 
 div#res {
@@ -21,7 +21,7 @@ div#res {
     font: normal 16px Arial;
 }
 
-div#res > p {
+div#res>p {
     margin-top: 10px;
     line-height: 40px;
 }
