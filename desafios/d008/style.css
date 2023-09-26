@@ -8,7 +8,7 @@
 
 h1 {
     font: bolder 30px Arial;
-    margin: 10px 5px ;
+    margin: 10px 5px;
 }
 
 button {
@@ -20,11 +20,11 @@ div#res {
     margin: 10px 5px;
 }
 
-div#res > h2 {
+div#res>h2 {
     font: bolder 23px Arial;
 }
 
-div#res > p {
+div#res>p {
     margin: 20px 0px;
     line-height: 40px;
 }
