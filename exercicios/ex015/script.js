@@ -6,7 +6,7 @@ function verificar() {
     if (fano.value.length == 0 || fano.value > ano) {
         alert(`[ERRO] Verifique os dados e tente novamente!`)
     } else {
-        let fsex = document.getElementsByTagName (`radsex`)
+        let fsex = document.getElementsByTagName ('radsex')
         let idade = ano - Number(fano.value) 
         let genero = ``
         if (fsex[0].checked) {
